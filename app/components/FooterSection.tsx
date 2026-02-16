@@ -80,17 +80,9 @@ export function FooterSection({ contacts, social }: FooterSectionProps) {
                 <ExternalLinkIcon className="w-3 h-3 text-pale" />
                 Parroquia Nuestra Señora de la Paz
               </a>
-              <a href="https://carreracaridad.pjnsp.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-stone hover:text-ink transition-colors">
-                <ExternalLinkIcon className="w-3 h-3 text-pale" />
-                Carrera por la Caridad 2026
-              </a>
-              <a href="#" className="flex items-center gap-2 text-stone hover:text-ink transition-colors">
+              <a href="https://diocesisciudadjuarez.org/inicio/" className="flex items-center gap-2 text-stone hover:text-ink transition-colors">
                 <ExternalLinkIcon className="w-3 h-3 text-pale" />
                 Diócesis de Ciudad Juárez
-              </a>
-              <a href="#" className="flex items-center gap-2 text-stone hover:text-ink transition-colors">
-                <ExternalLinkIcon className="w-3 h-3 text-pale" />
-                Horarios de Misa
               </a>
             </div>
           </div>

@@ -1,22 +1,42 @@
+import Image from "next/image";
 import { PjStripe } from "./shared/PjStripe";
 
 export function CommunitySection() {
   return (
     <section id="comunidad" className="bg-ink">
       <div className="grid md:grid-cols-2">
-        <div className="photo-placeholder-dark flex items-center justify-center min-h-[500px] md:min-h-0 p-16">
-          <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg" className="w-full max-w-[160px] opacity-50">
-            <circle cx="80" cy="45" r="22" fill="none" stroke="white" strokeWidth="0.8" opacity="0.4" />
-            <line x1="80" y1="67" x2="80" y2="130" stroke="white" strokeWidth="0.8" opacity="0.4" />
-            <line x1="80" y1="90" x2="55" y2="110" stroke="white" strokeWidth="0.8" opacity="0.4" />
-            <line x1="80" y1="90" x2="105" y2="110" stroke="white" strokeWidth="0.8" opacity="0.4" />
-            <line x1="80" y1="130" x2="60" y2="170" stroke="white" strokeWidth="0.8" opacity="0.4" />
-            <line x1="80" y1="130" x2="100" y2="170" stroke="white" strokeWidth="0.8" opacity="0.4" />
-            <circle cx="40" cy="35" r="2" fill="#3BA5DB" opacity="0.6" />
-            <circle cx="125" cy="50" r="2" fill="#E23D28" opacity="0.6" />
-            <circle cx="35" cy="140" r="2" fill="#F5C518" opacity="0.6" />
-            <circle cx="130" cy="130" r="2" fill="#A8C83A" opacity="0.6" />
-            <circle cx="80" cy="190" r="2" fill="#1B3A5C" opacity="0.8" />
+        <div className="relative min-h-[500px] md:min-h-0 overflow-hidden">
+          <Image
+            src="/perfil-cover.jpg"
+            alt="Comunidad de la Pastoral Juvenil"
+            fill
+            className="object-cover grayscale"
+          />
+          <div className="absolute inset-0 bg-black/60" />
+          <svg
+            className="absolute inset-0 w-full h-full"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+          >
+            <defs>
+              <pattern id="grid-small" width="48" height="48" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+                <path d="M 48 0 L 0 0 0 48" fill="none" stroke="white" strokeWidth="0.5" opacity="0.08" />
+              </pattern>
+              <pattern id="grid-color" width="600" height="600" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+                <line x1="0"   y1="0" x2="0"   y2="600" stroke="#3BA5DB" strokeWidth="1" opacity="0.25" />
+                <line x1="120" y1="0" x2="120" y2="600" stroke="#E23D28" strokeWidth="1" opacity="0.25" />
+                <line x1="240" y1="0" x2="240" y2="600" stroke="#1B3A5C" strokeWidth="1" opacity="0.25" />
+                <line x1="360" y1="0" x2="360" y2="600" stroke="#F5C518" strokeWidth="1" opacity="0.25" />
+                <line x1="480" y1="0" x2="480" y2="600" stroke="#A8C83A" strokeWidth="1" opacity="0.25" />
+                <line x1="0" y1="0"   x2="600" y2="0"   stroke="#3BA5DB" strokeWidth="1" opacity="0.25" />
+                <line x1="0" y1="120" x2="600" y2="120" stroke="#E23D28" strokeWidth="1" opacity="0.25" />
+                <line x1="0" y1="240" x2="600" y2="240" stroke="#1B3A5C" strokeWidth="1" opacity="0.25" />
+                <line x1="0" y1="360" x2="600" y2="360" stroke="#F5C518" strokeWidth="1" opacity="0.25" />
+                <line x1="0" y1="480" x2="600" y2="480" stroke="#A8C83A" strokeWidth="1" opacity="0.25" />
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#grid-small)" />
+            <rect width="100%" height="100%" fill="url(#grid-color)" />
           </svg>
         </div>
 

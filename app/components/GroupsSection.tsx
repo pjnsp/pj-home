@@ -1,6 +1,6 @@
+import Image from "next/image";
 import type { Group } from "@/config";
 import { SectionLabel } from "./shared/SectionLabel";
-import { PersonIcon } from "./shared/icons/PersonIcon";
 
 export function GroupsSection({ groups }: { groups: Group[] }) {
   return (
@@ -20,8 +20,13 @@ export function GroupsSection({ groups }: { groups: Group[] }) {
         <div className="grid md:grid-cols-3 gap-5">
           {groups.map((group) => (
             <a key={group.name} href="#" className="group-card bg-cloud p-8 block">
-              <div className="photo-placeholder w-full aspect-video mb-6">
-                <PersonIcon className="w-10 h-10 text-pale" />
+              <div className="relative w-full aspect-video mb-6 overflow-hidden bg-cloud">
+                <Image
+                  src={group.image}
+                  alt={group.name}
+                  fill
+                  className="object-cover"
+                />
               </div>
               <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-silver mb-2">
                 {group.tag}

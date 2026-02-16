@@ -4,7 +4,7 @@
 
 # Hero stats shown on the main landing section
 stats:
-  - value: "80+"
+  - value: "90+"
     label: "Jóvenes activos"
   - value: "8"
     label: "Grupos y ministerios"
@@ -13,124 +13,140 @@ stats:
 
 # Ministry groups displayed in the Grupos grid
 groups:
-  - tag: "Formación"
+  - tag: "Misión"
     name: "Laicos"
+    image: "/group-logo-laicos.jpg"
     description: >-
-      Formación laical para jóvenes que quieren profundizar en su fe.
+      Servicio laical para jóvenes adultos que quieren profundizar en su fe.
       Nos reunimos los miércoles por la noche para estudio, oración
       y crecimiento espiritual.
 
   - tag: "Evangelización"
     name: "TIC"
+    image: "/group-logo-tic.png"
     description: >-
-      Taller de Integración Cristiana. Formación integral los fines
-      de semana para jóvenes que buscan vivir su fe con profundidad
-      y compromiso.
+      Talleres Infantiles Católicos. Los jóvenes llevan el Evangelio a los más pequeños de la parroquia.
 
   - tag: "Caridad"
-    name: "Caridad"
+    name: "Caridad Juvenil"
+    image: "/logo.png"
     description: >-
       Servicio comunitario, colectas de despensa y eventos benéficos
       para familias vulnerables de nuestra zona. El amor en acción.
 
   - tag: "Liturgia"
     name: "Monaguillos"
+    image: "/logo.png"
     description: >-
-      Jóvenes que sirven en el altar durante las celebraciones
-      litúrgicas. Formación y servicio los sábados por la tarde.
+      Jóvenes que forman a los niños que sirven en el altar durante las celebraciones
+      litúrgicas.
 
   - tag: "Liturgia"
-    name: "Liturgia"
+    name: "Liturgia Juvenil"
+    image: "/logo.png"
     description: >-
       Ministerio litúrgico dedicado al cuidado y preparación de las
-      celebraciones. Nos reunimos el primer y tercer lunes de cada mes.
+      celebraciones.
 
-  - tag: "Servicio"
+  - tag: "Evangelización"
     name: "TAC"
+    image: "/group-logo-tac.jpg"
     description: >-
-      Taller de Animación Cristiana. Servicio y animación comunitaria
-      los sábados. Formamos jóvenes que contagian alegría y fe.
+      Talleres de Adolescentes Católicos. Los jóvenes contagian la fe a los adolescentes de la parroquia.
 
-  - tag: "Misión"
+  - tag: "Formación"
     name: "Profetas"
+    image: "/group-logo-profetas.jpg"
     description: >-
-      Evangelización y anuncio profético. Nos formamos los sábados
-      para llevar la Palabra con valentía y creatividad a quienes
-      más lo necesitan.
+      Formación para los jóvenes que buscan integrarse a la Pastoral Juvenil.
 
-  - tag: "Confirmación"
-    name: "Confis"
+  - tag: "Sacramento"
+    name: "Confirmaciones"
+    image: "/logo.png"
     description: >-
       Preparación para el sacramento de la Confirmación. Formación
-      intensiva en fin de semana para jóvenes que se preparan a
-      recibir el Espíritu Santo.
+      intensiva en fin de semana para jóvenes.
 
 # Values displayed in the Valores section (from Perfil del Servidor)
+# tier: 1 = most prominent, 2 = medium, 3 = smallest
 values:
   - name: "Amor"
+    tier: 1
     description: >-
       Vivir con caridad verdadera: "Ámense los unos a los otros
       como yo los he amado" (Jn 13,34).
 
+  - name: "Oración"
+    tier: 1
+    description: >-
+      Buscar siempre el diálogo con Dios. La oración es el
+      fundamento de toda acción y decisión en la Pastoral.
+
   - name: "Testimonio"
+    tier: 1
     description: >-
       Ser reflejo de Jesús en palabras, actitudes y acciones.
       Coherencia entre lo que se cree, se dice y se vive.
 
   - name: "Humildad"
+    tier: 1
     description: >-
       Servir para que Cristo crezca en los demás, no para
       buscar la gloria personal.
 
+  - name: "Sacrificio"
+    tier: 2
+    description: >-
+      Renunciar a comodidades por amor a Dios y a los
+      jóvenes. Tomar la cruz cada día (Lc 9,23).
+
   - name: "Obediencia"
+    tier: 2
     description: >-
       Vivir en comunión con los pastores y coordinadores,
       con espíritu de unidad y docilidad.
 
-  - name: "Discernimiento"
+  - name: "Perdón"
+    tier: 2
     description: >-
-      Actuar bajo el Don del Espíritu Santo, viendo y
-      juzgando con los ojos de Dios.
+      Saber corregir al hermano con caridad, perdonar y
+      aceptar con humildad nuestros propios errores.
 
   - name: "Vida Sacramental"
+    tier: 2
     description: >-
       Participar de la Eucaristía, la Confesión y la vida
       de gracia como fuente y sustento del servicio.
 
+  - name: "Discernimiento"
+    tier: 3
+    description: >-
+      Actuar bajo el Don del Espíritu Santo, viendo y
+      juzgando con los ojos de Dios.
+
   - name: "Pureza"
+    tier: 3
     description: >-
       Buscar integridad de corazón y rectitud en todas
       nuestras acciones.
 
   - name: "Paciencia"
+    tier: 3
     description: >-
       Ser pacientes con los demás ante situaciones
       difíciles y decisiones complejas.
 
-  - name: "Perdón"
-    description: >-
-      Saber corregir al hermano con caridad, perdonar y
-      aceptar con humildad nuestros propios errores.
-
   - name: "Lealtad"
+    tier: 3
     description: >-
       Ser fieles a Dios para que nuestras acciones sean
       acordes a lo que nos pide como Cuerpo de Cristo.
 
-  - name: "Sacrificio"
-    description: >-
-      Renunciar a comodidades por amor a Dios y a los
-      jóvenes. Tomar la cruz cada día (Lc 9,23).
-
   - name: "Prudencia"
+    tier: 3
     description: >-
       Ser dóciles y saber cuándo actuar, manteniendo la
       calma y reflejando el carácter de Cristo.
-
-  - name: "Oración"
-    description: >-
-      Cultivar una relación viva con Dios, alimentada por
-      la oración personal, la Palabra y la adoración.
 
 # Events section
 events:
@@ -157,63 +173,59 @@ events:
 
     - primary: false
       month: "Junio 2026"
-      title: "Retiro de Verano"
+      title: "Asamblea de fin de curso"
       description: >-
-        Tres días de oración, reflexión y convivencia fuera de la ciudad.
-        El retiro más esperado del año.
-      dateRange: "20 — 22 de Junio"
+        Finalizaremos nuestro curso con oración y reflexión.
+      dateRange: "Fechas por anunciar"
 
 # People section — priests and lay leaders
 people:
   priests:
     - role: "Párroco"
       name: "P. Salvador Magallanes"
+      image: "/team-padre-salvador.jpg"
       description: >-
         Párroco de la Parroquia Nuestra Señora de la Paz. Guía
         espiritual de la comunidad y promotor de la pastoral juvenil.
 
     - role: "Vicario"
       name: "P. Eliezel Martínez"
+      image: "/team-padre-eliezel.jpg"
       description: >-
         Vicario parroquial y asesor espiritual de la Pastoral Juvenil.
         Acompaña a los jóvenes en su camino de fe y formación.
 
   leaders:
-    - role: "Coordinadora"
-      name: "Andrea Rojas"
+    - role: "Coordinador General (Confirmaciones)"
+      name: "Luis Acevedo"
+      image: "/team-luis-acevedo.jpg"
       description: >-
-        Lidera la Pastoral Juvenil desde 2023. Responsable de planeación
-        estratégica y eventos comunitarios.
+        Responsable de los grupos de Confirmaciones juveniles.
 
-    - role: "Sub-Coordinador"
-      name: "Miguel Loza"
+    - role: "Coordinador General (Confirmaciones)"
+      name: "Alberto alias \"el Tucky\" Martínez"
+      image: "/team-tucky.jpg"
       description: >-
-        Brazo derecho de la coordinación. Encargado de logística,
-        comunicación y vinculación parroquial.
+        Polizón en el Arca de Noe. Superviviente de Sodoma y Gomorra. Escapó del Faraón. Cruzó el Jordán. Combatió Amalecitas, Jebusitas y Filisteos. Escapa de invasión asiria. Nabucodonosor lo deporta 3 veces a Babilonia. Regresa 4. Lideró Macabeos. Guió a los reyes magos. Guardia suizo de Pedro antes de la fundación de Suiza. Acompañó a Pablo a Roma, luego a Santiago a España. Victoria frente a los saracenos y luego los moros. Misionero a México. Secretario de Zumárraga. Cristero. Coordinador de Confirmaciones.
 
-    - role: "Formación"
-      name: "Sofía Vega"
+    - role: "CFO"
+      name: "Nicté Rodríguez"
+      image: "/team-nicte-rodriguez.jpg"
       description: >-
-        Responsable de catequesis y formación continua. Estudia
-        teología y acompaña grupos de estudio bíblico.
+        Responsable de la estrategia financiera de la Pastoral Juvenil.
 
-    - role: "Música"
-      name: "Carlos Méndez"
+    - role: "Filosofía"
+      name: "Ricardo Muñoz"
+      image: "/team-ricardo-munoz.jpg"
       description: >-
-        Director del Coro Juvenil. Músico y compositor. Lidera
-        la alabanza en misas y eventos especiales.
+        Cuestiona todo, no responde nada.
 
 # Contact information shown in the footer
 contacts:
-  - role: "Coordinadora"
-    name: "Andrea Rojas"
-    phone: "656 115 6069"
-    phoneUri: "+526561156069"
-
-  - role: "Sub-Coordinador"
-    name: "Miguel Loza"
-    phone: "656 638 7524"
-    phoneUri: "+526566387524"
+  - role: "Maestresala"
+    name: "Diogneto"
+    phone: "diogneto@pjnsp.com"
+    phoneUri: "diogneto@pjnsp.com"
 
 # Social media links
 social:

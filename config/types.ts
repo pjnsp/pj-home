@@ -6,11 +6,13 @@ export interface Stat {
 export interface Group {
   tag: string;
   name: string;
+  image: string;
   description: string;
 }
 
 export interface Value {
   name: string;
+  tier: 1 | 2 | 3;
   description: string;
 }
 
@@ -38,6 +40,7 @@ export interface Events {
 export interface Person {
   role: string;
   name: string;
+  image: string;
   description: string;
 }
 
