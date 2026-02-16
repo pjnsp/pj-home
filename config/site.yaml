@@ -6,83 +6,131 @@
 stats:
   - value: "80+"
     label: "Jóvenes activos"
-  - value: "6"
+  - value: "8"
     label: "Grupos y ministerios"
   - value: "2010"
     label: "Año de fundación"
 
 # Ministry groups displayed in the Grupos grid
 groups:
-  - tag: "Caridad"
-    name: "Ministerio de Caridad"
-    description: >-
-      Eventos benéficos, colectas de despensa y servicio comunitario
-      para familias vulnerables de nuestra zona.
-
-  - tag: "Música"
-    name: "Coro Juvenil"
-    description: >-
-      Alabanza y adoración en las misas de jóvenes. Ensayos semanales,
-      retiros y eventos especiales de la parroquia.
-
   - tag: "Formación"
-    name: "Catequesis Juvenil"
+    name: "Laicos"
     description: >-
-      Formación en la fe a través del estudio de la Palabra, la
-      doctrina social y temas relevantes para jóvenes de hoy.
+      Formación laical para jóvenes que quieren profundizar en su fe.
+      Nos reunimos los miércoles por la noche para estudio, oración
+      y crecimiento espiritual.
 
-  - tag: "Misión"
-    name: "Evangelización"
+  - tag: "Evangelización"
+    name: "TIC"
     description: >-
-      Llevamos el Evangelio a las calles, escuelas y espacios públicos.
-      Misiones, visitas a colonias y primer anuncio.
+      Taller de Integración Cristiana. Formación integral los fines
+      de semana para jóvenes que buscan vivir su fe con profundidad
+      y compromiso.
+
+  - tag: "Caridad"
+    name: "Caridad"
+    description: >-
+      Servicio comunitario, colectas de despensa y eventos benéficos
+      para familias vulnerables de nuestra zona. El amor en acción.
 
   - tag: "Liturgia"
-    name: "Servidores del Altar"
+    name: "Monaguillos"
     description: >-
-      Jóvenes que sirven en la liturgia dominical y festividades.
-      Formación litúrgica continua y acompañamiento espiritual.
+      Jóvenes que sirven en el altar durante las celebraciones
+      litúrgicas. Formación y servicio los sábados por la tarde.
 
-  - tag: "Deportes"
-    name: "Deporte y Recreación"
+  - tag: "Liturgia"
+    name: "Liturgia"
     description: >-
-      Volleyball, fútbol y convivencias deportivas. El deporte como
-      herramienta de comunidad y sana convivencia.
+      Ministerio litúrgico dedicado al cuidado y preparación de las
+      celebraciones. Nos reunimos el primer y tercer lunes de cada mes.
 
-# Values displayed in the Valores section
-values:
-  - name: "Comunidad"
+  - tag: "Servicio"
+    name: "TAC"
     description: >-
-      No somos un grupo más, somos una familia. Nos acompañamos
-      en las buenas y en las malas, construyendo lazos que trascienden
-      las reuniones semanales.
+      Taller de Animación Cristiana. Servicio y animación comunitaria
+      los sábados. Formamos jóvenes que contagian alegría y fe.
 
-  - name: "Servicio"
+  - tag: "Misión"
+    name: "Profetas"
     description: >-
-      Seguimos el ejemplo de Cristo que vino a servir. Ponemos nuestros
-      talentos y tiempo al servicio de la parroquia y de quienes
+      Evangelización y anuncio profético. Nos formamos los sábados
+      para llevar la Palabra con valentía y creatividad a quienes
       más lo necesitan.
 
-  - name: "Fe Viva"
+  - tag: "Confirmación"
+    name: "Confis"
     description: >-
-      La fe no es solo para los domingos. Buscamos vivir el Evangelio
-      en la escuela, el trabajo, la familia y en cada decisión cotidiana.
+      Preparación para el sacramento de la Confirmación. Formación
+      intensiva en fin de semana para jóvenes que se preparan a
+      recibir el Espíritu Santo.
 
-  - name: "Alegría"
+# Values displayed in the Valores section (from Perfil del Servidor)
+values:
+  - name: "Amor"
     description: >-
-      El cristiano es alegre porque tiene esperanza. Celebramos la
-      vida, la amistad y la presencia de Dios con entusiasmo y
-      autenticidad.
+      Vivir con caridad verdadera: "Ámense los unos a los otros
+      como yo los he amado" (Jn 13,34).
 
-  - name: "Compromiso"
+  - name: "Testimonio"
     description: >-
-      Nos tomamos en serio nuestra formación y nuestra misión.
-      Somos protagonistas de la Iglesia de hoy, no solo la de mañana.
+      Ser reflejo de Jesús en palabras, actitudes y acciones.
+      Coherencia entre lo que se cree, se dice y se vive.
 
-  - name: "Misión"
+  - name: "Humildad"
     description: >-
-      No guardamos la fe para nosotros. Salimos al encuentro del
-      otro, especialmente de los jóvenes que aún no conocen a Cristo.
+      Servir para que Cristo crezca en los demás, no para
+      buscar la gloria personal.
+
+  - name: "Obediencia"
+    description: >-
+      Vivir en comunión con los pastores y coordinadores,
+      con espíritu de unidad y docilidad.
+
+  - name: "Discernimiento"
+    description: >-
+      Actuar bajo el Don del Espíritu Santo, viendo y
+      juzgando con los ojos de Dios.
+
+  - name: "Vida Sacramental"
+    description: >-
+      Participar de la Eucaristía, la Confesión y la vida
+      de gracia como fuente y sustento del servicio.
+
+  - name: "Pureza"
+    description: >-
+      Buscar integridad de corazón y rectitud en todas
+      nuestras acciones.
+
+  - name: "Paciencia"
+    description: >-
+      Ser pacientes con los demás ante situaciones
+      difíciles y decisiones complejas.
+
+  - name: "Perdón"
+    description: >-
+      Saber corregir al hermano con caridad, perdonar y
+      aceptar con humildad nuestros propios errores.
+
+  - name: "Lealtad"
+    description: >-
+      Ser fieles a Dios para que nuestras acciones sean
+      acordes a lo que nos pide como Cuerpo de Cristo.
+
+  - name: "Sacrificio"
+    description: >-
+      Renunciar a comodidades por amor a Dios y a los
+      jóvenes. Tomar la cruz cada día (Lc 9,23).
+
+  - name: "Prudencia"
+    description: >-
+      Ser dóciles y saber cuándo actuar, manteniendo la
+      calma y reflejando el carácter de Cristo.
+
+  - name: "Oración"
+    description: >-
+      Cultivar una relación viva con Dios, alimentada por
+      la oración personal, la Palabra y la adoración.
 
 # Events section
 events:
@@ -119,16 +167,16 @@ events:
 people:
   priests:
     - role: "Párroco"
-      name: "P. Roberto Martínez"
+      name: "P. Salvador Magallanes"
       description: >-
-        Párroco de Nuestra Señora de la Paz desde 2019. Apasionado
-        por la formación de jóvenes y la nueva evangelización.
+        Párroco de la Parroquia Nuestra Señora de la Paz. Guía
+        espiritual de la comunidad y promotor de la pastoral juvenil.
 
     - role: "Vicario"
-      name: "P. Daniel Herrera"
+      name: "P. Eliezel Martínez"
       description: >-
         Vicario parroquial y asesor espiritual de la Pastoral Juvenil.
-        Coordina retiros y acompañamiento personal de jóvenes.
+        Acompaña a los jóvenes en su camino de fe y formación.
 
   leaders:
     - role: "Coordinadora"

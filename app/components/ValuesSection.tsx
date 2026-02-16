@@ -21,7 +21,7 @@ export function ValuesSection({ values }: { values: Value[] }) {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-x-20 gap-y-16">
+        <div className="grid md:grid-cols-3 gap-x-14 gap-y-12">
           {values.map((value) => (
             <div key={value.name}>
               <h3 className="font-display text-2xl uppercase tracking-tight text-white mb-3">

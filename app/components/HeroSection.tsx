@@ -1,5 +1,6 @@
 import type { Stat } from "@/config";
 import { PjStripe } from "./shared/PjStripe";
+import { ScrollCircle } from "./shared/ScrollCircle";
 
 export function HeroSection({ stats }: { stats: Stat[] }) {
   return (
@@ -58,7 +59,12 @@ export function HeroSection({ stats }: { stats: Stat[] }) {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0">
+      {/* Scroll-spinning brand circle — bottom right */}
+      <div className="absolute -bottom-32 -right-24 z-0 opacity-60 md:-bottom-40 md:-right-20">
+        <ScrollCircle size={480} thickness={3} />
+      </div>
+
+      <div className="absolute bottom-0 left-0 right-0 z-10">
         <PjStripe variant="full" />
       </div>
     </section>

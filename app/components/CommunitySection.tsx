@@ -26,31 +26,34 @@ export function CommunitySection() {
           </div>
           <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-white/30 mb-4">Nuestra gente</p>
           <h2 className="font-display text-4xl md:text-5xl uppercase tracking-tight text-white leading-[0.9] mb-8">
-            Joven, Inquieto,<br />Con Ganas De Más
+            Discípulo<br />Y Servidor
           </h2>
           <p className="text-white/40 text-base leading-relaxed mb-10 max-w-md">
-            No importa quién seas o de dónde vengas. Si tienes entre 15 y
-            30 años y quieres crecer en fe y en comunidad, hay un lugar
-            para ti aquí.
+            Un servidor es ante todo discípulo de Cristo y servidor de su
+            Iglesia, llamado a guiar, acompañar y dar testimonio con
+            coherencia de vida.
           </p>
 
           <div className="space-y-6 mb-12">
             <div className="border-l border-white/10 pl-5">
-              <p className="text-white font-semibold text-sm mb-1">Tiene entre 15 y 30 años</p>
+              <p className="text-white font-semibold text-sm mb-1">Tiene hasta 23 años de edad</p>
               <p className="text-white/35 text-sm leading-relaxed">
-                Estudiante de prepa, universitario o joven profesional.
+                Estudiante de prepa, universitario o joven profesional
+                con permanencia hasta los 26 años.
               </p>
             </div>
             <div className="border-l border-white/10 pl-5">
-              <p className="text-white font-semibold text-sm mb-1">Busca algo más que rutina</p>
+              <p className="text-white font-semibold text-sm mb-1">Vive su fe con los sacramentos</p>
               <p className="text-white/35 text-sm leading-relaxed">
-                Quiere profundizar en la fe, cuestionar y encontrar respuestas.
+                Ha recibido el Sacramento de la Confirmación y participa
+                activamente de la Eucaristía y la vida de gracia.
               </p>
             </div>
             <div className="border-l border-white/10 pl-5">
-              <p className="text-white font-semibold text-sm mb-1">Quiere pertenecer y servir</p>
+              <p className="text-white font-semibold text-sm mb-1">Corazón dispuesto al servicio</p>
               <p className="text-white/35 text-sm leading-relaxed">
-                No viene solo a recibir — quiere aportar sus talentos.
+                Busca dar testimonio con humildad, oración y caridad
+                verdadera. No viene solo a recibir — quiere servir.
               </p>
             </div>
           </div>
