@@ -1,0 +1,175 @@
+# =============================================
+# Pastoral Juvenil — Site Configuration
+# =============================================
+
+# Hero stats shown on the main landing section
+stats:
+  - value: "80+"
+    label: "Jóvenes activos"
+  - value: "6"
+    label: "Grupos y ministerios"
+  - value: "2010"
+    label: "Año de fundación"
+
+# Ministry groups displayed in the Grupos grid
+groups:
+  - tag: "Caridad"
+    name: "Ministerio de Caridad"
+    description: >-
+      Eventos benéficos, colectas de despensa y servicio comunitario
+      para familias vulnerables de nuestra zona.
+
+  - tag: "Música"
+    name: "Coro Juvenil"
+    description: >-
+      Alabanza y adoración en las misas de jóvenes. Ensayos semanales,
+      retiros y eventos especiales de la parroquia.
+
+  - tag: "Formación"
+    name: "Catequesis Juvenil"
+    description: >-
+      Formación en la fe a través del estudio de la Palabra, la
+      doctrina social y temas relevantes para jóvenes de hoy.
+
+  - tag: "Misión"
+    name: "Evangelización"
+    description: >-
+      Llevamos el Evangelio a las calles, escuelas y espacios públicos.
+      Misiones, visitas a colonias y primer anuncio.
+
+  - tag: "Liturgia"
+    name: "Servidores del Altar"
+    description: >-
+      Jóvenes que sirven en la liturgia dominical y festividades.
+      Formación litúrgica continua y acompañamiento espiritual.
+
+  - tag: "Deportes"
+    name: "Deporte y Recreación"
+    description: >-
+      Volleyball, fútbol y convivencias deportivas. El deporte como
+      herramienta de comunidad y sana convivencia.
+
+# Values displayed in the Valores section
+values:
+  - name: "Comunidad"
+    description: >-
+      No somos un grupo más, somos una familia. Nos acompañamos
+      en las buenas y en las malas, construyendo lazos que trascienden
+      las reuniones semanales.
+
+  - name: "Servicio"
+    description: >-
+      Seguimos el ejemplo de Cristo que vino a servir. Ponemos nuestros
+      talentos y tiempo al servicio de la parroquia y de quienes
+      más lo necesitan.
+
+  - name: "Fe Viva"
+    description: >-
+      La fe no es solo para los domingos. Buscamos vivir el Evangelio
+      en la escuela, el trabajo, la familia y en cada decisión cotidiana.
+
+  - name: "Alegría"
+    description: >-
+      El cristiano es alegre porque tiene esperanza. Celebramos la
+      vida, la amistad y la presencia de Dios con entusiasmo y
+      autenticidad.
+
+  - name: "Compromiso"
+    description: >-
+      Nos tomamos en serio nuestra formación y nuestra misión.
+      Somos protagonistas de la Iglesia de hoy, no solo la de mañana.
+
+  - name: "Misión"
+    description: >-
+      No guardamos la fe para nosotros. Salimos al encuentro del
+      otro, especialmente de los jóvenes que aún no conocen a Cristo.
+
+# Events section
+events:
+  showMoreEventsSoon: true
+  items:
+    - primary: true
+      month: "Mayo 2026"
+      title: "Carrera\nPor La Caridad"
+      description: >-
+        Nuestra carrera benéfica anual. Corre, trota o camina en
+        distancias de 3K, 5K o 10K. El 100% de lo recaudado apoya
+        a familias vulnerables de la comunidad.
+      url: "https://carreracaridad.pjnsp.com/"
+      urlLabel: "Ir a la Página del Evento"
+      details:
+        - label: "Fecha"
+          value: "17 de Mayo"
+        - label: "Hora"
+          value: "7:00 AM"
+        - label: "Distancias"
+          value: "3K / 5K / 10K"
+        - label: "Inscripción"
+          value: "$300 MXN"
+
+    - primary: false
+      month: "Junio 2026"
+      title: "Retiro de Verano"
+      description: >-
+        Tres días de oración, reflexión y convivencia fuera de la ciudad.
+        El retiro más esperado del año.
+      dateRange: "20 — 22 de Junio"
+
+# People section — priests and lay leaders
+people:
+  priests:
+    - role: "Párroco"
+      name: "P. Roberto Martínez"
+      description: >-
+        Párroco de Nuestra Señora de la Paz desde 2019. Apasionado
+        por la formación de jóvenes y la nueva evangelización.
+
+    - role: "Vicario"
+      name: "P. Daniel Herrera"
+      description: >-
+        Vicario parroquial y asesor espiritual de la Pastoral Juvenil.
+        Coordina retiros y acompañamiento personal de jóvenes.
+
+  leaders:
+    - role: "Coordinadora"
+      name: "Andrea Rojas"
+      description: >-
+        Lidera la Pastoral Juvenil desde 2023. Responsable de planeación
+        estratégica y eventos comunitarios.
+
+    - role: "Sub-Coordinador"
+      name: "Miguel Loza"
+      description: >-
+        Brazo derecho de la coordinación. Encargado de logística,
+        comunicación y vinculación parroquial.
+
+    - role: "Formación"
+      name: "Sofía Vega"
+      description: >-
+        Responsable de catequesis y formación continua. Estudia
+        teología y acompaña grupos de estudio bíblico.
+
+    - role: "Música"
+      name: "Carlos Méndez"
+      description: >-
+        Director del Coro Juvenil. Músico y compositor. Lidera
+        la alabanza en misas y eventos especiales.
+
+# Contact information shown in the footer
+contacts:
+  - role: "Coordinadora"
+    name: "Andrea Rojas"
+    phone: "656 115 6069"
+    phoneUri: "+526561156069"
+
+  - role: "Sub-Coordinador"
+    name: "Miguel Loza"
+    phone: "656 638 7524"
+    phoneUri: "+526566387524"
+
+# Social media links
+social:
+  - platform: "instagram"
+    url: "https://instagram.com/pastoraljuvenilnsp"
+  - platform: "facebook"
+    url: "https://facebook.com/pastoraljuvenilnsp"

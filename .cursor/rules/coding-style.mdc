@@ -1,0 +1,7 @@
+---
+alwaysApply: true
+---
+
+- Comment with code: Prefer clear, if-necessary-verbose variable and function names over comments. Use explicit comments when readability is compromised.
+- Prefer readable code over performant code. For example, prefer a series of steps using `.map` or `.reduce` over a single loop that does multiple things.
+- `.forEach` is forbidden. Prefer functional approaches like `.map` or `.reduce`, or use `for..of` or `for..in` loops as a fallback.
