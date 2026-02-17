@@ -218,7 +218,55 @@ people:
       name: "Ricardo Muñoz"
       image: "/team-ricardo-munoz.jpg"
       description: >-
-        Cuestiona todo, no responde nada.
+        Líder reflexivo enfocado en la formación de adultos y participación cívica, organizando foros de diálogo sobre fe y política mientras comparte documentos importantes de la Iglesia para mantener informada a la comunidad.
+
+    - role: "Coordinadora General (TIC)"
+      name: "Ana Laura Rodríguez"
+      image: "/team-ana-laura.jpg"
+      description: >-
+        Coordinadora general de los Talleres Infantiles Católicos. Liderando con alegría y entusiasmo a los jóvenes en el servicio a los más pequeños de la parroquia.
+
+    - role: "Coordinadora General (TIC)"
+      name: "Paulina Huerta"
+      image: "/team-paulina-huerta.jpg"
+      description: >-
+        Coordinadora general de los Talleres Infantiles Católicos. Liderando con alegría y entusiasmo a los jóvenes en el servicio a los más pequeños de la parroquia.
+
+    - role: "Coordinadora General (TAC)"
+      name: "Andrea Escárcega"
+      image: "/team-andrea-escarcega.jpg"
+      description: >-
+        Coordinadora general de los Talleres Adolescentes Católicos. Liderando con alegría y entusiasmo a los jóvenes en el servicio a los adolescentes de la parroquia.
+
+    - role: "Coordinadora General (TAC)"
+      name: "Diana Quezada"
+      image: "/team-diana-quezada.jpg"
+      description: >-
+        Coordinadora general de los Talleres Adolescentes Católicos. Liderando con alegría y entusiasmo a los jóvenes en el servicio a los adolescentes de la parroquia.
+
+    - role: "Coordinadora General (Caridad)"
+      name: "Andrea Rojas"
+      image: "/team-andrea-rojas.jpg"
+      description: >-
+        Coordinadora general de los Servicios Comunitarios. Liderando con alegría y entusiasmo a los jóvenes en el servicio a la comunidad.
+
+    - role: "Coordinador General (Caridad)"
+      name: "Emmanuel Regalado"
+      image: "/team-meny.jpg"
+      description: >-
+        Coordinador general de los Servicios Comunitarios. Liderando con alegría y entusiasmo a los jóvenes en el servicio a la comunidad.
+
+    - role: "Coordinadora General (Profetas)"
+      name: "Marifer López"
+      image: "/team-marifer.jpg"
+      description: >-
+        Coordinadora general de Profetas, preparando a los jóvenes que se integran a la Pastoral Juvenil.
+
+    - role: "Coordinador General (Liturgia)"
+      name: "Luis Romero"
+      image: "/team-luis-romero.jpg"
+      description: >-
+        Coordinador general de Liturgia Juvenil, preparando a los jóvenes que sirven en el altar durante las celebraciones litúrgicas.
 
 # Contact information shown in the footer
 contacts:

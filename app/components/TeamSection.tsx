@@ -1,9 +1,20 @@
 import Image from "next/image";
-import type { People } from "@/config";
+import type { People, Person } from "@/config";
 import { SectionLabel } from "./shared/SectionLabel";
 import { CollapsibleBio } from "./shared/CollapsibleBio";
 
+function shuffle(items: Person[]): Person[] {
+  const shuffled = [...items];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
 export function TeamSection({ people }: { people: People }) {
+  const shuffledPriests = shuffle(people.priests);
+  const shuffledLeaders = shuffle(people.leaders);
   return (
     <section id="equipo" className="bg-cloud py-28">
       <div className="max-w-7xl mx-auto px-6">
@@ -23,7 +34,7 @@ export function TeamSection({ people }: { people: People }) {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">
-          {people.priests.map((priest) => (
+          {shuffledPriests.map((priest) => (
             <div key={priest.name} className="bg-white p-8 flex gap-6">
               <div className="relative w-28 h-32 flex-shrink-0 overflow-hidden bg-cloud">
                 <Image
@@ -63,7 +74,7 @@ export function TeamSection({ people }: { people: People }) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          {people.leaders.map((leader) => (
+          {shuffledLeaders.map((leader) => (
             <div key={leader.name} className="bg-white p-6">
               <div className="relative w-full aspect-square mb-4 overflow-hidden bg-cloud">
                 <Image
