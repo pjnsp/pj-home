@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { People } from "@/config";
 import { SectionLabel } from "./shared/SectionLabel";
+import { CollapsibleBio } from "./shared/CollapsibleBio";
 
 export function TeamSection({ people }: { people: People }) {
   return (
@@ -39,9 +40,10 @@ export function TeamSection({ people }: { people: People }) {
                 <h3 className="font-display text-2xl uppercase tracking-tight mb-2">
                   {priest.name}
                 </h3>
-                <p className="text-stone text-sm leading-relaxed">
-                  {priest.description}
-                </p>
+                <CollapsibleBio
+                  text={priest.description}
+                  className="text-stone text-sm leading-relaxed"
+                />
               </div>
             </div>
           ))}
@@ -60,7 +62,7 @@ export function TeamSection({ people }: { people: People }) {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {people.leaders.map((leader) => (
             <div key={leader.name} className="bg-white p-6">
               <div className="relative w-full aspect-square mb-4 overflow-hidden bg-cloud">
@@ -75,9 +77,10 @@ export function TeamSection({ people }: { people: People }) {
                 {leader.role}
               </p>
               <h3 className="font-semibold text-sm mb-1">{leader.name}</h3>
-              <p className="text-stone text-xs leading-relaxed">
-                {leader.description}
-              </p>
+              <CollapsibleBio
+                text={leader.description}
+                className="text-stone text-xs leading-relaxed"
+              />
             </div>
           ))}
         </div>
