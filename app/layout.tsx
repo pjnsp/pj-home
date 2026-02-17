@@ -4,8 +4,6 @@ import Script from "next/script";
 import { env } from "@/config/env";
 import "./globals.css";
 
-const GA_MEASUREMENT_ID = "G-59FJ940C83";
-
 const anton = Anton({
   weight: "400",
   subsets: ["latin"],
@@ -46,7 +44,7 @@ export default function RootLayout({
         {isProduction && (
           <>
             <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+              src="https://www.googletagmanager.com/gtag/js?id=G-59FJ940C83"
               strategy="afterInteractive"
             />
             <Script id="google-analytics" strategy="afterInteractive">
@@ -54,11 +52,11 @@ export default function RootLayout({
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', '${GA_MEASUREMENT_ID}');
+                gtag('config', 'G-59FJ940C83');
               `}
             </Script>
           </>
-          )}
+        )}
       </head>
       <body
         className={`${anton.variable} ${plusJakarta.variable} bg-white text-ink antialiased`}
