@@ -29,8 +29,7 @@ export function HeroSection({ stats }: { stats: Stat[] }) {
           <div className="max-w-xl mb-16">
             <p className="text-white/50 text-lg leading-relaxed">
               Somos la comunidad de jóvenes de Nuestra Señora de la Paz
-              en Ciudad Juárez. Crecemos en fe, servimos con alegría
-              y construimos comunidad a través del encuentro con Cristo.
+              en Ciudad Juárez. Jóvenes en <a href="https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html#:~:text=Una%20pastoral%20sinodal" className="text-white hover:text-white/70 transition-colors" target="_blank" rel="noopener noreferrer">Sinodalidad</a>.
             </p>
           </div>
 
