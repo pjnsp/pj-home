@@ -21,7 +21,6 @@ export function Navigation() {
         <div className="hidden md:flex items-center gap-8 text-[12px] font-medium text-white/50 uppercase tracking-widest">
           <a href="#grupos" className="hover:text-white transition-colors">Grupos</a>
           <a href="#valores" className="hover:text-white transition-colors">Valores</a>
-          <a href="#eventos" className="hover:text-white transition-colors">Eventos</a>
           <a href="#equipo" className="hover:text-white transition-colors">Equipo</a>
           <a href="#comunidad" className="hover:text-white transition-colors">Comunidad</a>
         </div>
